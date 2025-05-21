@@ -1,0 +1,72 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f7fb;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 20px 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+form ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list {
+    background-color: #e9f0ff;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    padding: 12px 20px;
+    transition: background-color 0.3s ease;
+    cursor: default;
+}
+
+.list li {
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+.list:hover {
+    background-color: #c2d4ff;
+}
+
+/* Agar form action qismi kerak bo'lsa, unda input va button uchun ham qo'shishingiz mumkin */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #3366ff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #254eda;
+}
